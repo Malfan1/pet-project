@@ -1,0 +1,23 @@
+.section-main{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.main{
+  &__flex{
+    padding-top: 192px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
+.slider{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

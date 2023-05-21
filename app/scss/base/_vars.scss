@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+$prefix: artem- !default;
+$fontOswald: "Oswald", sans-serif;
+$fontOpenSans: "Open Sans", sans-serif;
+
+$path: "../../../images";
+
+$white: #FFF;
+$black: #000;
+$gray: #404149;
+
+$colors: (
+    "white": $white,
+    "black": $black,
+    "gray": $gray,
+)!default;

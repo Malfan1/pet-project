@@ -1,0 +1,15 @@
+.footer{
+    padding: 30px 0 30px 0;
+    background-color: var(--#{$prefix}gray-footer);
+
+    &__flex{
+        display: flex;
+        padding-inline: 33px;
+        color: var(--#{$prefix}white);
+        font-family: var(--#{$prefix}font-open-sans);
+    }
+
+    &__year{
+        margin-right: auto;
+    }
+}
