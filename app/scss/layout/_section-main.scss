@@ -6,13 +6,29 @@
 
 .main{
   &__flex{
-    padding-top: 192px;
+      padding-top: 172px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      font-family: var(--#{$prefix}font-oswald);
+      color: var(--#{$prefix}white);
+      text-transform: uppercase;
     }
 
+    &__title{
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 95px;
+      text-align: center;
+      width: 730px;
+      letter-spacing: 0.02em;
+      margin-bottom: 10px;
+
+      &-under{
+        font-size: 18px;
+      }
+    }
   }
 
 .slider{
@@ -20,4 +36,32 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.years{
+  width: 100%;
+  background: var(--#{$prefix}white-bg);
+  font-family: var(--#{$prefix}font-oswald);
+  display: flex;
+  justify-content: space-between;
+  padding: 57px 130px;
+  font-weight: 500;
+
+  &__h2{
+    font-size: 72px;
+    color: var(--#{$prefix}orange-year);
+
+    &-under{
+      font-size: 36px;
+    }
+  }
+
+  &__smth{
+    font-size: 18px;
+    color: var(--#{$prefix}gray-9)
+  }
+}
+
+.how-long{
+  text-align: center;
 }

@@ -9,9 +9,15 @@ $path: "../../../images";
 $white: #FFF;
 $black: #000;
 $gray: #404149;
+$whiteBg: #F7F7F7;
+$orange: #F7654A;
+$gray9: #999999;
 
 $colors: (
     "white": $white,
     "black": $black,
     "gray": $gray,
+    "whiteBg": $whiteBg,
+    "orange": $orange,
+    "gray9": $gray9,
 )!default;
