@@ -1,0 +1,47 @@
+.projects{
+    color: var(--#{$prefix}gray-9);
+    // margin-top: 250px;
+    margin-bottom: 155px;
+    &__h2{
+        font-weight: 500;
+        font-size: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var(--#{$prefix}font-oswald);
+        margin-bottom: 60px;
+    }
+
+    &__photos{
+        display: flex;
+        gap: 30px;
+    }
+
+    &__photo{
+        &::after {
+                content: "";
+                display: block;
+                width: 55px;
+                height: 6px;
+                background: var(--#{$prefix}orange);
+                margin-bottom: 15px;
+            }
+    }
+
+    &__img{
+        margin-bottom: 45px;
+    }
+
+    &__name{
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--#{$prefix}gray);
+        margin-bottom: 20px;
+        font-family: var(--#{$prefix}font-oswald);
+    }
+
+    &__sub{
+        font-size: 16px;
+        line-height: 22px;
+        font-family: var(--#{$prefix}font-open-sans);
+    }
+}
