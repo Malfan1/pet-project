@@ -1,0 +1,39 @@
+.do{
+    text-transform: uppercase;
+    font-family: var(--#{$prefix}font-oswald);
+    padding: 150px 0;
+    &__title{
+        grid-column: 1/-1;
+        margin: auto;
+        font-weight: 500;
+        font-size: 36px;
+        margin-bottom: 66px;
+    }
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+
+    &__box{
+        padding: 59px 92px;
+        padding-left: 86px;
+        background: var(--#{$prefix}white-bg);
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__foto{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    &__p{
+        text-align: center;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 31px;
+        letter-spacing: 0.02em;
+    }
+
+}

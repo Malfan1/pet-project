@@ -1,0 +1,12 @@
+.foto{
+    margin-bottom: 150px;
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__b > img{
+        width: 277.5px;
+        height: 100%;
+    }
+}
