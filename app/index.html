@@ -36,22 +36,22 @@
             </div>
             <div class="years">
               <div class="how-long">
-                <h2 class="years__h2">26</h2>
+                <h2 id="year" class="years__h2">0</h2>
                 <p class="years__h2-under">Лет</p>
                 <p class="years__smth">на рынке</p>
               </div>
               <div class="how-long">
-                <h2 class="years__h2">26</h2>
+                <h2 id="year" class="years__h2">0</h2>
                 <p class="years__h2-under">Лет</p>
                 <p class="years__smth">на рынке</p>
               </div>
               <div class="how-long">
-                <h2 class="years__h2">26</h2>
+                <h2 id="year" class="years__h2">0</h2>
                 <p class="years__h2-under">Лет</p>
                 <p class="years__smth">на рынке</p>
               </div>
               <div class="how-long">
-                <h2 class="years__h2">26</h2>
+                <h2 id="year" class="years__h2">0</h2>
                 <p class="years__h2-under">Лет</p>
                 <p class="years__smth">на рынке</p>
               </div>
@@ -115,7 +115,7 @@
               </div>
 
               <button class="line__btn js-open">
-                <a class="line__link" href="#">Ваш Запрос</a>
+                <p class="line__link">Ваш Запрос</p>
               </button>
             </div>
           </div>
@@ -295,7 +295,7 @@
               </div>
 
               <button class="line__btn js-open">
-                <a class="line__link" href="#">Ваш Запрос</a>
+                <p class="line__link">Ваш Запрос</p>
               </button>
             </div>
           </div>
@@ -344,10 +344,20 @@
         <section class="pop-up js-popup">
           <div class="blur">
             <div class="pop-up__bg">
-              <span class="js-close">x</span>
+              <span class="close js-close">X</span>
               <form action="" class="form">
-                <input type="text" />
-                <input type="text" />
+                <label for="1">
+                  <p class="pop-up__name">Имя</p>
+                  <input id="1" class="pop-up__input" type="text" />
+                </label>
+                <label for="2">
+                  <p class="pop-up__name">Номер ТЕЛЕФОНа</p>
+                  <input class="pop-up__input" type="text" />
+                </label>
+
+                <button class="pop-up__btn">
+                  <a class="pop-up__link" href="">Отправить Запрос</a>
+                </button>
               </form>
             </div>
           </div>
@@ -365,5 +375,6 @@
 
     <script src="js/main.min.js"></script>
     <script src="js/pop-up.js"></script>
+    <script src="js/count.js"></script>
   </body>
 </html>
