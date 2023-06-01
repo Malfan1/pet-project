@@ -36,5 +36,21 @@
             left: -23px;
             top: 11px;
         }
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &__hidden{
+        display: none;
+       
+    }
+
+    &__ut{
+        font-family: var(--#{$prefix}font-open-sans);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
     }
 }
